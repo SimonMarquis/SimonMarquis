@@ -1,0 +1,14 @@
+name: Matrix Java versions
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java-version: ['11', '17', '19']
+    steps:
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java-version }}
+      - run: java --version
