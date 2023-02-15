@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        exit-code: [0, 1]
+        exit-code: [-1, 0, 1]
     steps:
       - name: Run with exit code ${{ matrix.exit-code }}
         id: foo
@@ -20,21 +20,56 @@ jobs:
         env:
           EXIT_CODE: ${{ matrix.exit-code }}
 
-      - name: 'always()'
-        if: ${{ always() }}
-        run: echo '${{ toJSON(steps.foo) }}'
+     - name: 'contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
+        if: ${{ contains(fromJSON('["success", "failure"]'), steps.foo.outcome) }}
+        run: echo "ok"
       - name: 'always() && contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
         if: ${{ always() && contains(fromJSON('["success", "failure"]'), steps.foo.outcome) }}
+        run: echo "ok"
+      - name: '(success() || failure()) && contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
+        if: ${{ (success() || failure()) && contains(fromJSON('["success", "failure"]'), steps.foo.outcome) }}
+        run: echo "ok"
+
+      - name: 'contains(steps.foo.outcome, fromJSON("["success", "failure"]"))'
+        if: ${{ contains(steps.foo.outcome, fromJSON('["success", "failure"]')) }}
         run: echo "ok"
       - name: 'always() && contains(steps.foo.outcome, fromJSON("["success", "failure"]"))'
         if: ${{ always() && contains(steps.foo.outcome, fromJSON('["success", "failure"]')) }}
         run: echo "ok"
+      - name: '(success() || failure()) && contains(steps.foo.outcome, fromJSON("["success", "failure"]"))'
+        if: ${{ (success() || failure()) && contains(steps.foo.outcome, fromJSON('["success", "failure"]')) }}
+        run: echo "ok"
+
+      - name: 'steps.foo.outcome == "success"'
+        if: ${{ steps.foo.outcome == 'success' }}
+        run: echo "ok"
       - name: 'always() && steps.foo.outcome == "success"'
         if: ${{ always() && steps.foo.outcome == 'success' }}
+        run: echo "ok"
+      - name: '(success() || failure()) && steps.foo.outcome == "success"'
+        if: ${{ (success() || failure()) && steps.foo.outcome == 'success' }}
+        run: echo "ok"
+
+      - name: 'steps.foo.outcome == "failure"'
+        if: ${{ steps.foo.outcome == 'failure' }}
         run: echo "ok"
       - name: 'always() && steps.foo.outcome == "failure"'
         if: ${{ always() && steps.foo.outcome == 'failure' }}
         run: echo "ok"
-      - name: 'always() && steps.foo.outcome == "success" || steps.foo.outcome == "failure"'
-        if: ${{ always() && steps.foo.outcome == 'success' || steps.foo.outcome == 'failure' }}
+      - name: '(success() || failure()) && steps.foo.outcome == "failure"'
+        if: ${{ (success() || failure()) && steps.foo.outcome == 'failure' }}
         run: echo "ok"
+
+      - name: '(steps.foo.outcome == "success" || steps.foo.outcome == "failure")'
+        if: ${{ (steps.foo.outcome == 'success' || steps.foo.outcome == 'failure') }}
+        run: echo "ok"
+      - name: 'always() && (steps.foo.outcome == "success" || steps.foo.outcome == "failure")'
+        if: ${{ always() && (steps.foo.outcome == 'success' || steps.foo.outcome == 'failure') }}
+        run: echo "ok"
+      - name: '(success() || failure()) && (steps.foo.outcome == "success" || steps.foo.outcome == "failure")'
+        if: ${{ (success() || failure()) && (steps.foo.outcome == 'success' || steps.foo.outcome == 'failure') }}
+        run: echo "ok"
+
+      - name: 'always()'
+        if: ${{ always() }}
+        run: echo '${{ toJSON(steps) }}'
