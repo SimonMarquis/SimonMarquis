@@ -1,0 +1,40 @@
+name: Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        exit-code: [0, 1]
+    steps:
+      - name: Run with exit code ${{ matrix.exit-code }}
+        id: foo
+        run: exit $EXIT_CODE
+        env:
+          EXIT_CODE: ${{ matrix.exit-code }}
+
+      - name: 'always()'
+        if: ${{ always() }}
+        run: echo '${{ toJSON(steps.foo) }}'
+      - name: 'always() && contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
+        if: ${{ always() && contains(fromJSON('["success", "failure"]'), steps.foo.outcome) }}
+        run: echo "ok"
+      - name: 'always() && contains(steps.foo.outcome, fromJSON("["success", "failure"]"))'
+        if: ${{ always() && contains(steps.foo.outcome, fromJSON('["success", "failure"]')) }}
+        run: echo "ok"
+      - name: 'always() && steps.foo.outcome == "success"'
+        if: ${{ always() && steps.foo.outcome == 'success' }}
+        run: echo "ok"
+      - name: 'always() && steps.foo.outcome == "failure"'
+        if: ${{ always() && steps.foo.outcome == 'failure' }}
+        run: echo "ok"
+      - name: 'always() && steps.foo.outcome == "success" || steps.foo.outcome == "failure"'
+        if: ${{ always() && steps.foo.outcome == 'success' || steps.foo.outcome == 'failure' }}
+        run: echo "ok"
