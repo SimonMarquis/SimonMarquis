@@ -20,7 +20,7 @@ jobs:
         env:
           EXIT_CODE: ${{ matrix.exit-code }}
 
-     - name: 'contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
+      - name: 'contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
         if: ${{ contains(fromJSON('["success", "failure"]'), steps.foo.outcome) }}
         run: echo "ok"
       - name: 'always() && contains(fromJSON("["success", "failure"]"), steps.foo.outcome)'
