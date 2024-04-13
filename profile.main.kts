@@ -34,7 +34,7 @@ data class Entry(
     val packages: Map<Type, String?> = emptyMap(),
 )
 
-enum class Group { AndroidApp, AndroidLibrary, GitHubAction, KotlinTool, Misc }
+enum class Group { AndroidApp, AndroidLibrary, GitHubAction, KotlinTool, Misc, AdventOfCode }
 enum class Type { GooglePlay, FDroid, GitHubRelease, GitHubMarketplace, GitHubPages, Web, Maven }
 
 // @formatter:off
@@ -73,6 +73,13 @@ val map = mapOf(
         Entry(name = "Android-Version-Distribution", label = "📊 Android Version Distribution"),
         Entry(name = "Firebase-Test-Lab-Devices", label = "📱 Firebase Test Lab Devices"),
     ),
+    AdventOfCode to listOf(
+        Entry(name = "advent-of-code-2023", label = "Advent of Code 2023", packages = mapOf(Web to "https://adventofcode.com/2023")),
+        Entry(name = "advent-of-code-2022", label = "Advent of Code 2022", packages = mapOf(Web to "https://adventofcode.com/2022")),
+        Entry(name = "advent-of-code-2021", label = "Advent of Code 2021", packages = mapOf(Web to "https://adventofcode.com/2021")),
+        Entry(name = "advent-of-code-2020", label = "Advent of Code 2020", packages = mapOf(Web to "https://adventofcode.com/2020")),
+        Entry(name = "advent-of-code-2019", label = "Advent of Code 2019", packages = mapOf(Web to "https://adventofcode.com/2019")),
+    )
 )
 // @formatter:on
 
@@ -94,6 +101,7 @@ createHTML().measureTime().run {
                                 GitHubAction -> "🐙 Github Actions"
                                 KotlinTool -> "🧰 Kotlin libraries & tools"
                                 Misc -> "💎 Miscellaneous"
+                                AdventOfCode -> "🎄 Advent of Code"
                             }
                         }
                     }

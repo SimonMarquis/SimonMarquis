@@ -196,5 +196,45 @@
       <td></td>
     </tr>
   </tbody>
+  <thead style="font-size: larger; background-color: #FFFFFF11;">
+    <tr>
+      <th style="text-align: left"><b>🎄 Advent of Code</b></th>
+      <th><b>⭐</b></th>
+      <th><b>🛎️</b></th>
+      <th><b>🔗</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2023"><b>Advent of Code 2023</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2023/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2023"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2023/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2023"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2023/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2023?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2023/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2023?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2023"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2022"><b>Advent of Code 2022</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2022/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2022"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2022/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2022"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2022/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2022?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2022/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2022?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2022"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2021"><b>Advent of Code 2021</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2021/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2021"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2021/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2021"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2021/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2021?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2021/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2021?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2021"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2020"><b>Advent of Code 2020</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2020/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2020"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2020/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2020"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2020/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2020?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2020/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2020?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2020"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2019"><b>Advent of Code 2019</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2019/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2019"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2019/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2019"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2019/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2019?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2019/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2019?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2019"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+  </tbody>
 </table>
 <!--endregion-->
