@@ -122,13 +122,13 @@ createHTML().measureTime().run {
                         }
                         /* Stars & Forks */
                         td {
-                            a("${it.github()}/stargazers") { img(alt = "Stars", src = shield("github/stars/SimonMarquis/${it.name}")) }; br
-                            a("${it.github()}/forks") { img(alt = "Forks", src = shield("github/forks/SimonMarquis/${it.name}")) }
+                            a("${it.github()}/stargazers") { img(alt = "Stars", src = shield("github/stars/${it.author}/${it.name}")) }; br
+                            a("${it.github()}/forks") { img(alt = "Forks", src = shield("github/forks/${it.author}/${it.name}")) }
                         }
                         /* Issues & PRs */
                         td {
-                            a("${it.github()}/issues") { img(alt = "Issues", src = shield("github/issues/SimonMarquis/${it.name}?label=Issues")) }; br
-                            a("${it.github()}/pulls") { img(alt = "Pull Requests", src = shield("github/issues-pr/SimonMarquis/${it.name}?label=PRs%E2%A0%80%E2%A0%80")) }
+                            a("${it.github()}/issues") { img(alt = "Issues", src = shield("github/issues/${it.author}/${it.name}?label=Issues")) }; br
+                            a("${it.github()}/pulls") { img(alt = "Pull Requests", src = shield("github/issues-pr/${it.author}/${it.name}?label=PRs%E2%A0%80%E2%A0%80")) }
                         }
                         /* Links */
                         td {
