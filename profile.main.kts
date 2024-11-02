@@ -69,6 +69,7 @@ val map = mapOf(
     Misc to listOf(
         Entry(name = "TIL", label = "Today I Learned", quote = "🗓️ Today I Learned", packages = mapOf(GitHubPages to null)),
         Entry(name = "Firebase-Remote-Config-Changes-Notifier", label = "Firebase Remote Config changes notifier", quote = "🔥 Notify changes in real time through Slack Webhooks"),
+        Entry(name = "Android-App-Reviews-Notifier", label = "Android App Reviews Notifier", quote = "🛎️ Get your Android app reviews directly in a Slack channel"),
         Entry(name = "GitHub-Actions-Playground", label = "GitHub Actions Playground", quote = "🛝 Playground for GitHub Actions"),
         Entry(name = "Android-Version-Distribution", label = "📊 Android Version Distribution"),
         Entry(name = "Firebase-Test-Lab-Devices", label = "📱 Firebase Test Lab Devices"),

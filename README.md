@@ -178,6 +178,12 @@
       <td></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/Android-App-Reviews-Notifier"><b>Android App Reviews Notifier</b><br><i><small>🛎️ Get your Android app reviews directly in a Slack channel</small></i></a></td>
+      <td><a href="https://github.com/SimonMarquis/Android-App-Reviews-Notifier/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Android-App-Reviews-Notifier"></a><br><a href="https://github.com/SimonMarquis/Android-App-Reviews-Notifier/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Android-App-Reviews-Notifier"></a></td>
+      <td><a href="https://github.com/SimonMarquis/Android-App-Reviews-Notifier/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Android-App-Reviews-Notifier?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Android-App-Reviews-Notifier/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Android-App-Reviews-Notifier?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground"><b>GitHub Actions Playground</b><br><i><small>🛝 Playground for GitHub Actions</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/GitHub-Actions-Playground"></a><br><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/GitHub-Actions-Playground"></a></td>
       <td><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/GitHub-Actions-Playground?label=Issues"></a><br><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/GitHub-Actions-Playground?label=PRs%E2%A0%80%E2%A0%80"></a></td>
