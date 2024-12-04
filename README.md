@@ -212,6 +212,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2024"><b>Advent of Code 2024</b></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2024/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2024"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2024/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2024"></a></td>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2024/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2024?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2024/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2024?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://adventofcode.com/2024"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/advent-of-code-2023"><b>Advent of Code 2023</b></a></td>
       <td><a href="https://github.com/SimonMarquis/advent-of-code-2023/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/advent-of-code-2023"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2023/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/advent-of-code-2023"></a></td>
       <td><a href="https://github.com/SimonMarquis/advent-of-code-2023/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/advent-of-code-2023?label=Issues"></a><br><a href="https://github.com/SimonMarquis/advent-of-code-2023/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/advent-of-code-2023?label=PRs%E2%A0%80%E2%A0%80"></a></td>
