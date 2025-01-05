@@ -31,6 +31,7 @@ data class Entry(
     val label: String = name,
     val quote: String? = null,
     val packages: Map<Type, String?> = emptyMap(),
+    val data: Map<String, Any> = emptyMap(),
 )
 
 enum class Group { AndroidApp, AndroidLibrary, GitHubAction, KotlinTool, Misc, AdventOfCode }
