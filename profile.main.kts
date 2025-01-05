@@ -75,12 +75,12 @@ val map = mapOf(
         Entry(name = "Firebase-Test-Lab-Devices", label = "📱 Firebase Test Lab Devices"),
     ),
     AdventOfCode to listOf(
-        Entry(name = "advent-of-code-2024", label = "Advent of Code 2024", packages = mapOf(Web to "https://adventofcode.com/2024")),
-        Entry(name = "advent-of-code-2023", label = "Advent of Code 2023", packages = mapOf(Web to "https://adventofcode.com/2023")),
-        Entry(name = "advent-of-code-2022", label = "Advent of Code 2022", packages = mapOf(Web to "https://adventofcode.com/2022")),
-        Entry(name = "advent-of-code-2021", label = "Advent of Code 2021", packages = mapOf(Web to "https://adventofcode.com/2021")),
-        Entry(name = "advent-of-code-2020", label = "Advent of Code 2020", packages = mapOf(Web to "https://adventofcode.com/2020")),
-        Entry(name = "advent-of-code-2019", label = "Advent of Code 2019", packages = mapOf(Web to "https://adventofcode.com/2019")),
+        Entry(name = "advent-of-code-2024", label = "Advent of Code 2024", packages = mapOf(Web to "https://adventofcode.com/2024"), data = mapOf("⭐" to 18)),
+        Entry(name = "advent-of-code-2023", label = "Advent of Code 2023", packages = mapOf(Web to "https://adventofcode.com/2023"), data = mapOf("⭐" to 18)),
+        Entry(name = "advent-of-code-2022", label = "Advent of Code 2022", packages = mapOf(Web to "https://adventofcode.com/2022"), data = mapOf("⭐" to 31)),
+        Entry(name = "advent-of-code-2021", label = "Advent of Code 2021", packages = mapOf(Web to "https://adventofcode.com/2021"), data = mapOf("⭐" to 27)),
+        Entry(name = "advent-of-code-2020", label = "Advent of Code 2020", packages = mapOf(Web to "https://adventofcode.com/2020"), data = mapOf("⭐" to 12)),
+        Entry(name = "advent-of-code-2019", label = "Advent of Code 2019", packages = mapOf(Web to "https://adventofcode.com/2019"), data = mapOf("⭐" to 26)),
     )
 )
 // @formatter:on
@@ -124,13 +124,25 @@ createHTML().measureTime().run {
                         }
                         /* Stars & Forks */
                         td {
-                            a("${it.github()}/stargazers") { img(alt = "Stars", src = shield("github/stars/${it.author}/${it.name}")) }; br
-                            a("${it.github()}/forks") { img(alt = "Forks", src = shield("github/forks/${it.author}/${it.name}")) }
+                            when (group) {
+                                AdventOfCode -> {
+                                    b { +it.data["⭐"].toString() }
+                                }
+                                else -> {
+                                    a("${it.github()}/stargazers") { img(alt = "Stars", src = shield("github/stars/${it.author}/${it.name}")) }; br
+                                    a("${it.github()}/forks") { img(alt = "Forks", src = shield("github/forks/${it.author}/${it.name}")) }
+                                }
+                            }
                         }
                         /* Issues & PRs */
                         td {
-                            a("${it.github()}/issues") { img(alt = "Issues", src = shield("github/issues/${it.author}/${it.name}?label=Issues")) }; br
-                            a("${it.github()}/pulls") { img(alt = "Pull Requests", src = shield("github/issues-pr/${it.author}/${it.name}?label=PRs%E2%A0%80%E2%A0%80")) }
+                            when (group) {
+                                AdventOfCode -> Unit
+                                else -> {
+                                    a("${it.github()}/issues") { img(alt = "Issues", src = shield("github/issues/${it.author}/${it.name}?label=Issues")) }; br
+                                    a("${it.github()}/pulls") { img(alt = "Pull Requests", src = shield("github/issues-pr/${it.author}/${it.name}?label=PRs%E2%A0%80%E2%A0%80")) }
+                                }
+                            }
                         }
                         /* Links */
                         td {
