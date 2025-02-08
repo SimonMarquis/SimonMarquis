@@ -70,6 +70,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/Android-Playground"><b>Android Playground</b><br><i><small>🛝 Playground for Android projects</small></i></a></td>
+      <td><a href="https://github.com/SimonMarquis/Android-Playground/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Android-Playground"></a><br><a href="https://github.com/SimonMarquis/Android-Playground/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Android-Playground"></a></td>
+      <td><a href="https://github.com/SimonMarquis/Android-Playground/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Android-Playground?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Android-Playground/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Android-Playground?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/Android-App-Linking"><b>Android App Linking</b><br><i><small>🔗 The ultimate developer guide to Android app linking methods</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/Android-App-Linking/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Android-App-Linking"></a><br><a href="https://github.com/SimonMarquis/Android-App-Linking/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Android-App-Linking"></a></td>
       <td><a href="https://github.com/SimonMarquis/Android-App-Linking/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Android-App-Linking?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Android-App-Linking/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Android-App-Linking?label=PRs%E2%A0%80%E2%A0%80"></a></td>

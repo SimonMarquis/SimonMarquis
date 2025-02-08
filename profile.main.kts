@@ -50,6 +50,7 @@ val map = mapOf(
         Entry(name = "Android-SecretCodes", label = "Secret Codes", quote = "🪄 Browse through hidden codes of your Android phone", packages = listOf(GooglePlay, FDroid).associateWith { "fr.simon.marquis.secretcodes" }),
     ),
     AndroidLibrary to listOf(
+        Entry(name = "Android-Playground", label = "Android Playground", quote = "🛝 Playground for Android projects"),
         Entry(name = "Android-App-Linking", label = "Android App Linking", quote = "🔗 The ultimate developer guide to Android app linking methods", packages = mapOf(GooglePlay to "fr.smarquis.applinks", GitHubPages to null)),
         Entry(name = "Preferences-filtering", label = "Preferences filtering", quote = "🔎 Search through Android's Preferences screens", packages = mapOf(GitHubRelease to null)),
         Entry(name = "Android-InstallReferrer", label = "Install Referrer", quote = "Test the referrer attribute on the Google Play Store", packages = mapOf(GooglePlay to "fr.simon.marquis.installreferrer", GitHubPages to null)),
