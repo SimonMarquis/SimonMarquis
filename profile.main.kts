@@ -29,6 +29,7 @@ data class Entry(
     val author: String = "SimonMarquis",
     val name: String,
     val label: String = name,
+    val more: String? = null,
     val quote: String? = null,
     val packages: Map<Type, String?> = emptyMap(),
     val data: Map<String, Any> = emptyMap(),
@@ -40,6 +41,7 @@ enum class Type { GooglePlay, FDroid, GitHubRelease, GitHubMarketplace, GitHubPa
 // @formatter:off
 val map = mapOf(
     AndroidApp to listOf(
+        Entry(name = "nowinandroid", author = "android", label = "Now in Android", more = "(external contributor)", quote = "🤖 A fully functional Android app built entirely with Kotlin and Jetpack Compose", packages = mapOf(GooglePlay to "com.google.samples.apps.nowinandroid")),
         Entry(name = "InternalAppStore", label = "Internal App Store", quote = "📦 Manage your own internal Android App Store", packages = mapOf(Web to "https://public-app-store.web.app/", GitHubRelease to null)),
         Entry(name = "AR-Toolbox", label = "AR Toolbox", quote = "🧰 ARCore & Sceneform Playground", packages = mapOf(GooglePlay to "fr.smarquis.ar_toolbox", GitHubRelease to null)),
         Entry(name = "FCM-toolbox", label = "FCM toolbox", quote = "📲 Firebase Cloud Messaging toolbox", packages = mapOf(GooglePlay to "fr.smarquis.fcm", Web to "https://fcm-toolbox-public.web.app")),
@@ -120,6 +122,7 @@ createHTML().measureTime().run {
                         td {
                             a(it.github()) {
                                 b { +it.label }
+                                it.more?.let { small { +" $it"} }
                                 it.quote?.let { br; i { small { +it } } }
                             }
                         }

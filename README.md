@@ -12,6 +12,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/android/nowinandroid"><b>Now in Android</b><small> (external contributor)</small><br><i><small>🤖 A fully functional Android app built entirely with Kotlin and Jetpack Compose</small></i></a></td>
+      <td><a href="https://github.com/android/nowinandroid/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/android/nowinandroid"></a><br><a href="https://github.com/android/nowinandroid/forks"><img alt="Forks" src="https://img.shields.io/github/forks/android/nowinandroid"></a></td>
+      <td><a href="https://github.com/android/nowinandroid/issues"><img alt="Issues" src="https://img.shields.io/github/issues/android/nowinandroid?label=Issues"></a><br><a href="https://github.com/android/nowinandroid/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/android/nowinandroid?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img alt="Download" src="https://img.shields.io/badge/Google%20Play-%20?logo=googleplay&amp;color=grey"></a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/InternalAppStore"><b>Internal App Store</b><br><i><small>📦 Manage your own internal Android App Store</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/InternalAppStore/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/InternalAppStore"></a><br><a href="https://github.com/SimonMarquis/InternalAppStore/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/InternalAppStore"></a></td>
       <td><a href="https://github.com/SimonMarquis/InternalAppStore/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/InternalAppStore?label=Issues"></a><br><a href="https://github.com/SimonMarquis/InternalAppStore/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/InternalAppStore?label=PRs%E2%A0%80%E2%A0%80"></a></td>
