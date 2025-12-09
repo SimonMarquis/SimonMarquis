@@ -78,6 +78,7 @@ val map = mapOf(
         Entry(name = "Firebase-Test-Lab-Devices", label = "📱 Firebase Test Lab Devices"),
     ),
     AdventOfCode to listOf(
+        Entry(name = "advent-of-code-2025", label = "Advent of Code 2025", packages = mapOf(Web to "https://adventofcode.com/2025"), data = mapOf("⭐" to 14)),
         Entry(name = "advent-of-code-2024", label = "Advent of Code 2024", packages = mapOf(Web to "https://adventofcode.com/2024"), data = mapOf("⭐" to 18)),
         Entry(name = "advent-of-code-2023", label = "Advent of Code 2023", packages = mapOf(Web to "https://adventofcode.com/2023"), data = mapOf("⭐" to 18)),
         Entry(name = "advent-of-code-2022", label = "Advent of Code 2022", packages = mapOf(Web to "https://adventofcode.com/2022"), data = mapOf("⭐" to 31)),

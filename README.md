@@ -224,6 +224,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/advent-of-code-2025"><b>Advent of Code 2025</b></a></td>
+      <td><b>14</b></td>
+      <td></td>
+      <td><a href="https://adventofcode.com/2025"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/advent-of-code-2024"><b>Advent of Code 2024</b></a></td>
       <td><b>18</b></td>
       <td></td>
