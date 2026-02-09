@@ -53,6 +53,7 @@ val map = mapOf(
     ),
     AndroidLibrary to listOf(
         Entry(name = "Android-Playground", label = "Android Playground", quote = "🛝 Playground for Android projects"),
+        Entry(name = "Lint-Playground", label = "Lint Playground", quote = "🛝 Playground for Lint projects", packages = mapOf(Web to "https://simonmarquis.github.io/Lint-Playground/")),
         Entry(name = "Android-App-Linking", label = "Android App Linking", quote = "🔗 The ultimate developer guide to Android app linking methods", packages = mapOf(GooglePlay to "fr.smarquis.applinks", GitHubPages to null)),
         Entry(name = "Preferences-filtering", label = "Preferences filtering", quote = "🔎 Search through Android's Preferences screens", packages = mapOf(GitHubRelease to null)),
         Entry(name = "Android-InstallReferrer", label = "Install Referrer", quote = "Test the referrer attribute on the Google Play Store", packages = mapOf(GooglePlay to "fr.simon.marquis.installreferrer", GitHubPages to null)),
