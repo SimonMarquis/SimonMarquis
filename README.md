@@ -85,7 +85,7 @@
       <td><a href="https://github.com/SimonMarquis/Lint-Playground"><b>Lint Playground</b><br><i><small>🛝 Playground for Lint projects</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/Lint-Playground/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Lint-Playground"></a><br><a href="https://github.com/SimonMarquis/Lint-Playground/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Lint-Playground"></a></td>
       <td><a href="https://github.com/SimonMarquis/Lint-Playground/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Lint-Playground?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Lint-Playground/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Lint-Playground?label=PRs%E2%A0%80%E2%A0%80"></a></td>
-      <td><a href="https://simonmarquis.github.io/Lint-Playground"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+      <td><a href="https://simonmarquis.github.io/Lint-Playground/"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/SimonMarquis/Android-App-Linking"><b>Android App Linking</b><br><i><small>🔗 The ultimate developer guide to Android app linking methods</small></i></a></td>
@@ -206,6 +206,12 @@
       <td><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/GitHub-Actions-Playground"></a><br><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/GitHub-Actions-Playground"></a></td>
       <td><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/GitHub-Actions-Playground?label=Issues"></a><br><a href="https://github.com/SimonMarquis/GitHub-Actions-Playground/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/GitHub-Actions-Playground?label=PRs%E2%A0%80%E2%A0%80"></a></td>
       <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SimonMarquis/Gradle-Project-Paths"><b>Gradle Project Paths</b><br><i><small>🐘 An IntelliJ plugin that helps autocomplete Gradle project paths</small></i></a></td>
+      <td><a href="https://github.com/SimonMarquis/Gradle-Project-Paths/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Gradle-Project-Paths"></a><br><a href="https://github.com/SimonMarquis/Gradle-Project-Paths/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Gradle-Project-Paths"></a></td>
+      <td><a href="https://github.com/SimonMarquis/Gradle-Project-Paths/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Gradle-Project-Paths?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Gradle-Project-Paths/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Gradle-Project-Paths?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://plugins.jetbrains.com/plugin/32671"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/SimonMarquis/Android-Version-Distribution"><b>📊 Android Version Distribution</b></a></td>
