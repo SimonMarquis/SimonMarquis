@@ -1,0 +1,37 @@
+name: 🔄️ Update
+
+on:
+  workflow_dispatch:
+  push: &shared
+    branches: [main]
+    paths: [profile.main.kts, README.md]
+  pull_request: *shared
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    if: contains(fromJson(vars.AUTHORIZED_ACTORS || '[]'), github.actor)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - run: ./profile.main.kts
+
+      - uses: SimonMarquis/setup-github-app-as-bot@v1
+        with:
+          client-id: ${{ vars.BOT_CLIENT_ID }}
+          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
+
+      - run: |
+          if ! git diff --quiet --exit-code -- README.md;
+          then
+            git commit README.md -m "🔃"
+            git push
+            echo "::notice::UPDATED"
+          else
+            echo "::notice::UP-TO-DATE"
+          fi
