@@ -162,6 +162,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/setup-github-app-as-bot"><b>Setup GitHub App as bot</b><br><i><small>🤖 Setup GitHub App as a bot: generate access token and configure git user</small></i></a></td>
+      <td><a href="https://github.com/SimonMarquis/setup-github-app-as-bot/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/setup-github-app-as-bot"></a><br><a href="https://github.com/SimonMarquis/setup-github-app-as-bot/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/setup-github-app-as-bot"></a></td>
+      <td><a href="https://github.com/SimonMarquis/setup-github-app-as-bot/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/setup-github-app-as-bot?label=Issues"></a><br><a href="https://github.com/SimonMarquis/setup-github-app-as-bot/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/setup-github-app-as-bot?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://github.com/marketplace/actions/setup-github-app-as-bot"><img alt="Download" src="https://img.shields.io/badge/Marketplace-%20?logo=github&amp;logoColor=white&amp;color=grey"></a><br><a href="https://github.com/SimonMarquis/setup-github-app-as-bot/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/SimonMarquis/setup-github-app-as-bot?logo=github&amp;label=%20&amp;color=grey"></a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/android-accept-licenses"><b>Android accept licenses</b><br><i><small>🤖 Accept Android licenses with `sdkmanager`</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/android-accept-licenses/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/android-accept-licenses"></a><br><a href="https://github.com/SimonMarquis/android-accept-licenses/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/android-accept-licenses"></a></td>
       <td><a href="https://github.com/SimonMarquis/android-accept-licenses/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/android-accept-licenses?label=Issues"></a><br><a href="https://github.com/SimonMarquis/android-accept-licenses/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/android-accept-licenses?label=PRs%E2%A0%80%E2%A0%80"></a></td>
