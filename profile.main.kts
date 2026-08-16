@@ -3,8 +3,8 @@
 @file:Repository("https://repo1.maven.org/maven2/")
 @file:DependsOn("org.jetbrains.kotlinx:kotlinx-html-jvm:0.11.0")
 
-import Profile_main.Group.*
-import Profile_main.Type.*
+import Group.*
+import Type.*
 import kotlinx.html.a
 import kotlinx.html.b
 import kotlinx.html.br
