@@ -67,6 +67,7 @@ val map = mapOf(
         Entry(name = "svg2avd", label = "svg2avd", quote = "⚙️ Kotlin script to convert SVG files to AVD"),
     ),
     GitHubAction to listOf(
+        Entry(name = "setup-github-app-as-bot", label = "Setup GitHub App as bot", quote = "🤖 Setup GitHub App as a bot: generate access token and configure git user", packages = mapOf(GitHubMarketplace to "setup-github-app-as-bot", GitHubRelease to null)),
         Entry(name = "android-accept-licenses", label = "Android accept licenses", quote = "🤖 Accept Android licenses with `sdkmanager`", packages = mapOf(GitHubMarketplace to "android-accept-licenses", GitHubRelease to null)),
         Entry(name = "ci-gradle-properties-action", label = "CI Gradle properties", quote = "🐘 Copy Gradle properties file to the CI's home directory", packages = mapOf(GitHubMarketplace to "setup-gradle-properties-file", GitHubRelease to null)),
     ),
