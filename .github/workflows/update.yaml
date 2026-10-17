@@ -8,7 +8,7 @@ on:
   pull_request: *shared
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update:
@@ -26,6 +26,7 @@ jobs:
         with:
           client-id: ${{ vars.BOT_CLIENT_ID }}
           private-key: ${{ secrets.BOT_PRIVATE_KEY }}
+          permission-contents: write
 
       - run: |
           if ! git diff --quiet --exit-code -- README.md;
