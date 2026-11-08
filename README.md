@@ -196,6 +196,12 @@
       <td><a href="https://simonmarquis.github.io/TIL"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/SimonMarquis/androidx-release-notes"><b>AndroidX Release Notes</b><br><i><small>📋 Browse AndroidX release notes across libraries and dates in one place</small></i></a></td>
+      <td><a href="https://github.com/SimonMarquis/androidx-release-notes/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/androidx-release-notes"></a><br><a href="https://github.com/SimonMarquis/androidx-release-notes/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/androidx-release-notes"></a></td>
+      <td><a href="https://github.com/SimonMarquis/androidx-release-notes/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/androidx-release-notes?label=Issues"></a><br><a href="https://github.com/SimonMarquis/androidx-release-notes/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/androidx-release-notes?label=PRs%E2%A0%80%E2%A0%80"></a></td>
+      <td><a href="https://simonmarquis.github.io/androidx-release-notes"><img alt="Download" src="https://img.shields.io/badge/Web-%20?logo=html5&amp;logoColor=white&amp;color=grey"></a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/SimonMarquis/Firebase-Remote-Config-Changes-Notifier"><b>Firebase Remote Config changes notifier</b><br><i><small>🔥 Notify changes in real time through Slack Webhooks</small></i></a></td>
       <td><a href="https://github.com/SimonMarquis/Firebase-Remote-Config-Changes-Notifier/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SimonMarquis/Firebase-Remote-Config-Changes-Notifier"></a><br><a href="https://github.com/SimonMarquis/Firebase-Remote-Config-Changes-Notifier/forks"><img alt="Forks" src="https://img.shields.io/github/forks/SimonMarquis/Firebase-Remote-Config-Changes-Notifier"></a></td>
       <td><a href="https://github.com/SimonMarquis/Firebase-Remote-Config-Changes-Notifier/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SimonMarquis/Firebase-Remote-Config-Changes-Notifier?label=Issues"></a><br><a href="https://github.com/SimonMarquis/Firebase-Remote-Config-Changes-Notifier/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SimonMarquis/Firebase-Remote-Config-Changes-Notifier?label=PRs%E2%A0%80%E2%A0%80"></a></td>
