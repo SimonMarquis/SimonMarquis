@@ -73,6 +73,7 @@ val map = mapOf(
     ),
     Misc to listOf(
         Entry(name = "TIL", label = "Today I Learned", quote = "🗓️ Today I Learned", packages = mapOf(GitHubPages to null)),
+        Entry(name = "androidx-release-notes", label = "AndroidX Release Notes", quote = "📋 Browse AndroidX release notes across libraries and dates in one place", packages = mapOf(GitHubPages to null)),
         Entry(name = "Firebase-Remote-Config-Changes-Notifier", label = "Firebase Remote Config changes notifier", quote = "🔥 Notify changes in real time through Slack Webhooks"),
         Entry(name = "Android-App-Reviews-Notifier", label = "Android App Reviews Notifier", quote = "🛎️ Get your Android app reviews directly in a Slack channel"),
         Entry(name = "GitHub-Actions-Playground", label = "GitHub Actions Playground", quote = "🛝 Playground for GitHub Actions"),
